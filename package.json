@@ -1,8 +1,8 @@
 {
   "name": "insert-useclient",
   "displayName": "Insert useclient",
-  "description": "Insert use client on top of NextJS server component",
-  "version": "0.0.3",
+  "description": "Insert use client and user server on top of NextJS component",
+  "version": "0.0.4",
   "publisher": "evondev",
   "repository": {
     "type": "git",
@@ -22,6 +22,10 @@
       {
         "command": "insert-useclient.insertUseClient",
         "title": "Insert use client"
+      },
+      {
+        "command": "insert-useclient.insertUseServer",
+        "title": "Insert use server"
       }
     ]
   },
